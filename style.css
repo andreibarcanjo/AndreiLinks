@@ -121,10 +121,16 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
   transition: background 0.5s;
+  
 }
+
 
 ul li a:hover {
 background: #602cb9;
+filter:none;
+transform: scale(1.1);
+-ms-transform: scale(1.1);
+-webkit-transform: (1.1);
 }
 ul li a ::after {
   content: "";
