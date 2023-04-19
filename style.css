@@ -7,19 +7,19 @@
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
-  --bg-boxs-color: rgba(31,15,58,0.5) ; 
+  --bg-boxs-color: rgba(31,15,58,0.3); 
   --social-hover: #202020;
   --switch-bg-url: url(./assets/moon-stars.svg);
-  --button-hover: rgb(161, 161, 161);
+  --button-hover: rgb(161, 161, 161,0.5);
 }
 
 .light{
-  --bg-boxs-color: rgb(169, 132, 206);
+  --bg-boxs-color: rgb(169, 132, 206,0.3);
   --text-color: black;
   --bg-url: --bg-url: url(./assets/bg-mobile-light.jpg);
   --social-hover: #b6b6b6;
   --switch-bg-url: url(./assets/sun.svg);
-  --button-hover: rgb(95, 94, 94);
+  --button-hover: rgb(95, 94, 94,0.5);
 }
 body {
   background-image: var(--bg-url);
