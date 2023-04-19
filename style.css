@@ -7,7 +7,7 @@
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
-  --bg-boxs-color: #1f0f3a ; 
+  --bg-boxs-color: rgba(31,15,58,0.5) ; 
   --social-hover: #202020;
   --switch-bg-url: url(./assets/moon-stars.svg);
   --button-hover: rgb(161, 161, 161);
@@ -110,7 +110,7 @@ ul li a {
   justify-content: center;
   padding: 16px 24px;
   background: var(--bg-boxs-color);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15  px);
   box-shadow: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(255, 94, 247, 1) 17.8%,
